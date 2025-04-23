@@ -10,8 +10,10 @@ A memory game built in **WPF** using the **MVVM architectural pattern**, designe
 - **Sign In** and **Sign Up** using dedicated `UserControls`
 - Store and display custom **user profile** (name + profile image)
 - Navigate back to the login screen at any time
-
+- 
+<div align="center">
 <img src="Game/images/game1.png" alt="SignInUp" width="600"/>
+</div>
 
 ### 🎯 Game Setup
 - Choose **matrix size** to define difficulty
@@ -24,8 +26,10 @@ A memory game built in **WPF** using the **MVVM architectural pattern**, designe
 - Timer and moves tracked during gameplay
 - Pause, resume, and restart options
 
+<div align="center">
 <img src="Game/images/game2.png" alt="GamePlay" width="600"/>
-
+</div>
+  
 ### 💾 Save & Load
 - Save the game state (including timer, moves, player, board) as JSON
 - Load the **last saved game** from the menu
