@@ -1,0 +1,94 @@
+{
+  "Username": "Ana",
+  "WonGames": 1,
+  "PlayedGames": 1,
+  "Rows": 4,
+  "Columns": 4,
+  "SelectedCategory": "Penguin",
+  "SelectedMode": "Standard",
+  "TimeRemaining": "00:02:18",
+  "IsGameOver": true,
+  "IsGameStarted": true,
+  "Tokens": [
+    {
+      "ImageName": "penguin7",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "penguin6",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "penguin3",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "penguin8",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "penguin5",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "penguin1",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "penguin2",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "penguin7",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "penguin3",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "penguin1",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "penguin4",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "penguin2",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "penguin4",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "penguin5",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "penguin6",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "penguin8",
+      "IsFlipped": true,
+      "IsMatched": true
+    }
+  ]
+}

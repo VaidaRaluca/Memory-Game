@@ -1,0 +1,92 @@
+{
+  "Username": "Dodo",
+  "WonGames": 1,
+  "PlayedGames": 2,
+  "Rows": 4,
+  "Columns": 4,
+  "SelectedCategory": "Koala",
+  "SelectedMode": "Standard",
+  "TimeRemaining": "00:00:02",
+  "Tokens": [
+    {
+      "ImageName": "koala2",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "koala3",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "koala1",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "koala4",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "koala7",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "koala5",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "koala2",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "koala8",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "koala6",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "koala4",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "koala1",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "koala5",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "koala7",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "koala6",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "koala8",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "koala3",
+      "IsFlipped": true,
+      "IsMatched": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "Username": "Dodo",
+  "WonGames": 0,
+  "PlayedGames": 4,
+  "Rows": 4,
+  "Columns": 4,
+  "SelectedCategory": "Dolphin",
+  "SelectedMode": "Standard",
+  "TimeRemaining": "00:02:23",
+  "IsGameOver": false,
+  "IsGameStarted": true,
+  "Tokens": [
+    {
+      "ImageName": "dolphin7",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "ImageName": "dolphin6",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "dolphin5",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "dolphin8",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "ImageName": "dolphin1",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "dolphin8",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "ImageName": "dolphin4",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "ImageName": "dolphin1",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "dolphin3",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "dolphin2",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "dolphin2",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "dolphin4",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "ImageName": "dolphin5",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "dolphin7",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "ImageName": "dolphin3",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "dolphin6",
+      "IsFlipped": true,
+      "IsMatched": true
+    }
+  ]
+}

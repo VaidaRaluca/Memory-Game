@@ -1,0 +1,34 @@
+{
+  "Username": "Dodo",
+  "WonGames": 0,
+  "PlayedGames": 2,
+  "Rows": 2,
+  "Columns": 2,
+  "SelectedCategory": "Penguin",
+  "SelectedMode": "Standard",
+  "TimeRemaining": "00:02:55",
+  "IsGameOver": false,
+  "IsGameStarted": true,
+  "Tokens": [
+    {
+      "ImageName": "penguin2",
+      "IsFlipped": true,
+      "IsMatched": false
+    },
+    {
+      "ImageName": "penguin1",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "penguin2",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "ImageName": "penguin1",
+      "IsFlipped": true,
+      "IsMatched": true
+    }
+  ]
+}

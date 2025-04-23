@@ -1,0 +1,54 @@
+{
+  "Username": "Ana",
+  "WonGames": 0,
+  "PlayedGames": 0,
+  "Rows": 2,
+  "Columns": 4,
+  "SelectedCategory": "Dolphin",
+  "SelectedMode": "Custom",
+  "TimeRemaining": "00:02:41",
+  "IsGameOver": false,
+  "IsGameStarted": true,
+  "Tokens": [
+    {
+      "ImageName": "dolphin3",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "ImageName": "dolphin4",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "ImageName": "dolphin1",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "dolphin3",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "ImageName": "dolphin2",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "ImageName": "dolphin4",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "ImageName": "dolphin1",
+      "IsFlipped": true,
+      "IsMatched": true
+    },
+    {
+      "ImageName": "dolphin2",
+      "IsFlipped": false,
+      "IsMatched": false
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="Game.Views.SignInControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Game.ViewModels"
+             xmlns:conv="clr-namespace:Game.Utils"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800">
+    <UserControl.DataContext>
+        <local:SignInVM/>
+    </UserControl.DataContext>
+    <UserControl.Resources>
+        <conv:ImagePathToUriConverter x:Key="ImagePathToUriConverter" />
+    </UserControl.Resources>
+    <Grid x:Name="theGrid" Background="#c4faeb">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="420"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Background="#a9f8e2" Grid.Column="0" Grid.ColumnSpan="4" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Black" 
+               FontFamily="Baskerville Old Face" Content="Welcome to the Memory Game!"/>
+
+        <ListBox Background="#a9f8e2" Grid.Row="1" ItemsSource="{Binding Users}" 
+                 SelectedItem="{Binding SelectedUser}" 
+                 Margin="10,44,10,44">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock FontSize="15" FontFamily="Baskerville Old Face" Text="{Binding Username}" Padding="5" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Image Grid.Column="1" HorizontalAlignment="Center" Height="181" Margin="0,44,0,0" 
+               Grid.Row="1" VerticalAlignment="Top" Width="190"
+               Source="{Binding SelectedUser.Avatar.ImagePath, Converter={StaticResource ImagePathToUriConverter}}"/>
+
+        <Button Grid.Row="2" Background="#a9f8e2" Content="New User" FontFamily="Baskerville Old Face" FontSize="14" HorizontalAlignment="Left" Margin="31,0,0,0" VerticalAlignment="Top" Height="40" Width="80" Command="{Binding SwitchToSignUpViewCommand}"/>
+        <Button Content="Delete User" Background="#a9f8e2" Grid.Row="2" FontFamily="Baskerville Old Face" FontSize="14" HorizontalAlignment="Left" Margin="232,0,0,0" VerticalAlignment="Top" Height="40" Width="80"  Command="{Binding DeleteUserCommand}"/>
+        <Button Content="Play" Background="#a9f8e2" Grid.Row="2" FontFamily="Baskerville Old Face" FontSize="14" HorizontalAlignment="Left" Margin="46,0,0,0" VerticalAlignment="Top" Height="40" Width="80"  Command="{Binding SwitchToGameCommand}" Grid.Column="1"/>
+    </Grid>
+</UserControl>

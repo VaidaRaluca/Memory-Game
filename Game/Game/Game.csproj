@@ -1,0 +1,266 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Avatars\bg.png" />
+    <None Remove="Avatars\bg1.png" />
+    <None Remove="Avatars\dolphin1.jpg" />
+    <None Remove="Avatars\dolphin10.jpg" />
+    <None Remove="Avatars\dolphin11.jpg" />
+    <None Remove="Avatars\dolphin12.jpg" />
+    <None Remove="Avatars\dolphin13.jpg" />
+    <None Remove="Avatars\dolphin14.jpg" />
+    <None Remove="Avatars\dolphin15.jpg" />
+    <None Remove="Avatars\dolphin16.jpg" />
+    <None Remove="Avatars\dolphin17.jpg" />
+    <None Remove="Avatars\dolphin18.jpg" />
+    <None Remove="Avatars\dolphin2.jpg" />
+    <None Remove="Avatars\dolphin3.jpg" />
+    <None Remove="Avatars\dolphin4.jpg" />
+    <None Remove="Avatars\dolphin5.jpg" />
+    <None Remove="Avatars\dolphin6.jpg" />
+    <None Remove="Avatars\dolphin7.jpg" />
+    <None Remove="Avatars\dolphin8.jpg" />
+    <None Remove="Avatars\dolphin9.jpg" />
+    <None Remove="Avatars\koala1.jpg" />
+    <None Remove="Avatars\koala10.jpg" />
+    <None Remove="Avatars\koala11.jpg" />
+    <None Remove="Avatars\koala12.jpg" />
+    <None Remove="Avatars\koala13.jpg" />
+    <None Remove="Avatars\koala14.jpg" />
+    <None Remove="Avatars\koala15.jpg" />
+    <None Remove="Avatars\koala16.jpg" />
+    <None Remove="Avatars\koala17.jpg" />
+    <None Remove="Avatars\koala18.jpg" />
+    <None Remove="Avatars\koala2.jpg" />
+    <None Remove="Avatars\koala3.jpg" />
+    <None Remove="Avatars\koala4.jpg" />
+    <None Remove="Avatars\koala5.jpg" />
+    <None Remove="Avatars\koala6.jpg" />
+    <None Remove="Avatars\koala7.jpg" />
+    <None Remove="Avatars\koala8.jpg" />
+    <None Remove="Avatars\koala9.jpg" />
+    <None Remove="Avatars\penguin1.jpg" />
+    <None Remove="Avatars\penguin10.jpg" />
+    <None Remove="Avatars\penguin11.jpg" />
+    <None Remove="Avatars\penguin12.jpg" />
+    <None Remove="Avatars\penguin13.jpg" />
+    <None Remove="Avatars\penguin14.jpg" />
+    <None Remove="Avatars\penguin15.jpg" />
+    <None Remove="Avatars\penguin16.jpg" />
+    <None Remove="Avatars\penguin17.jpg" />
+    <None Remove="Avatars\penguin18.jpg" />
+    <None Remove="Avatars\penguin2.jpg" />
+    <None Remove="Avatars\penguin3.jpg" />
+    <None Remove="Avatars\penguin4.jpg" />
+    <None Remove="Avatars\penguin5.jpg" />
+    <None Remove="Avatars\penguin6.jpg" />
+    <None Remove="Avatars\penguin7.jpg" />
+    <None Remove="Avatars\penguin8.jpg" />
+    <None Remove="Avatars\penguin9.jpg" />
+    <None Remove="Avatars\quokka1.jpg" />
+    <None Remove="Avatars\quokka2.jpg" />
+    <None Remove="Avatars\quokka3.jpg" />
+    <None Remove="Avatars\quokka4.jpg" />
+    <None Remove="Avatars\quokka5.jpg" />
+    <None Remove="Avatars\white.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Avatars\bg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\bg1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\dolphin1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\dolphin10.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\dolphin11.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\dolphin12.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\dolphin13.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\dolphin14.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\dolphin15.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\dolphin16.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\dolphin17.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\dolphin18.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\dolphin2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\dolphin3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\dolphin4.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\dolphin5.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\dolphin6.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\dolphin7.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\dolphin8.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\dolphin9.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\koala1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\koala10.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\koala11.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\koala12.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\koala13.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\koala14.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\koala15.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\koala16.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\koala17.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\koala18.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\koala2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\koala3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\koala4.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\koala5.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\koala6.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\koala7.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\koala8.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\koala9.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\penguin1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\penguin10.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\penguin11.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\penguin12.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\penguin13.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\penguin14.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\penguin15.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\penguin16.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\penguin17.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\penguin18.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\penguin2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\penguin3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\penguin4.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\penguin5.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\penguin6.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\penguin7.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\penguin8.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\penguin9.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\quokka1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\quokka2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\quokka3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\quokka4.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Avatars\quokka5.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
