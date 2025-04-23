@@ -1,4 +1,4 @@
-# 🧠 Memory Game (WPF + MVVM)
+# 🧠 Memory Game
 
 A memory game built in **WPF** using the **MVVM architectural pattern**, designed for modularity and scalability. The game allows users to sign in, select a profile image and name, and track their statistics. It features various game modes, themes, and game state persistence through JSON serialization.
 
@@ -11,11 +11,11 @@ A memory game built in **WPF** using the **MVVM architectural pattern**, designe
 - Store and display custom **user profile** (name + profile image)
 - Navigate back to the login screen at any time
 
-<img src="Game/images/game1.png" alt="SignInUp" width="400"/>
+<img src="Game/images/game1.png" alt="SignInUp" width="600"/>
 
 ### 🎯 Game Setup
 - Choose **matrix size** to define difficulty
-- Select image category (Animals - 3 categories)
+- Select image category : Koala, Penguin, Dolphin
 - Set a **custom timer**
 - Fully integrated with MVVM via **RelayCommands** and **DataBinding**
 
@@ -24,7 +24,7 @@ A memory game built in **WPF** using the **MVVM architectural pattern**, designe
 - Timer and moves tracked during gameplay
 - Pause, resume, and restart options
 
-<img src="Game/images/game2.png" alt="GamePlay" width="400"/>
+<img src="Game/images/game2.png" alt="GamePlay" width="600"/>
 
 ### 💾 Save & Load
 - Save the game state (including timer, moves, player, board) as JSON
@@ -36,8 +36,6 @@ A memory game built in **WPF** using the **MVVM architectural pattern**, designe
   - Games Won
 - Statistics displayed in a dedicated `UserControl` view
 
----
-
 ## ⚙️ Technologies Used
 
 - **WPF (.NET)** for UI and interaction
@@ -48,4 +46,5 @@ A memory game built in **WPF** using the **MVVM architectural pattern**, designe
   - SignUpControl
   - GameControl
 - **JSON for game state serializations
+ ---
 
