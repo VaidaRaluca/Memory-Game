@@ -40,8 +40,7 @@ A memory game built in **WPF** using the **MVVM architectural pattern**, designe
   - Games Won
 - Statistics displayed in a dedicated `UserControl` view
 
-## ⚙️ Technologies Used
-
+### ⚙️ Technologies Used
 - **WPF (.NET)** for UI and interaction
 - **MVVM** pattern for clean separation of logic
 - **RelayCommand** for ICommand implementations
