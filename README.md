@@ -11,6 +11,8 @@ A memory game built in **WPF** using the **MVVM architectural pattern**, designe
 - Store and display custom **user profile** (name + profile image)
 - Navigate back to the login screen at any time
 
+![SignInUp](Game/images/game1.png)
+
 ### 🎯 Game Setup
 - Choose **matrix size** to define difficulty
 - Select image category (Animals - 3 categories)
@@ -21,6 +23,8 @@ A memory game built in **WPF** using the **MVVM architectural pattern**, designe
 - Interactive and responsive UI with flip card logic
 - Timer and moves tracked during gameplay
 - Pause, resume, and restart options
+
+![GamePlay](Game/images/game2.png)
 
 ### 💾 Save & Load
 - Save the game state (including timer, moves, player, board) as JSON
