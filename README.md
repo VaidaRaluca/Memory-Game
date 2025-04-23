@@ -10,7 +10,7 @@ A memory game built in **WPF** using the **MVVM architectural pattern**, designe
 - **Sign In** and **Sign Up** using dedicated `UserControls`
 - Store and display custom **user profile** (name + profile image)
 - Navigate back to the login screen at any time
-- 
+  
 <div align="center">
 <img src="Game/images/game1.png" alt="SignInUp" width="600"/>
 </div>
